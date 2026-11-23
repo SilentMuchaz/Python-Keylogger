@@ -44,7 +44,7 @@ OK
 
 The tests cover character input, spaces, Enter-triggered output, buffer reset, Esc termination, ignored special keys, append-mode file writing, console printing, and the existing `None`-character edge case.
 
-- [Handler-level test suite](tests/test_keylogger_logic.py)
+- [Handler-level test suite](test_keylogger_logic.py)
 - [Recorded test results](evidence/handler-test-results.txt)
 - [Technical case study](Keyboard-Event-Monitoring-Case-Study.md)
 - [PDF case study](01-keyboard-event-monitoring-case-study.pdf)
