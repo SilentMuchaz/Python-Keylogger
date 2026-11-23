@@ -66,6 +66,3 @@ The tests cover character input, spaces, Enter-triggered output, buffer reset, E
 This is a **local, educational keyboard-event monitoring experiment**, not a production security tool. The original script has no network transmission or persistence mechanism, and its file output is unencrypted. It can capture sensitive information if used carelessly. Run it only on a system you own or are explicitly authorized to test, using non-sensitive test text.
 
 
-## Technology
-
-Python · `pynput` · event callbacks · file I/O · `unittest`
