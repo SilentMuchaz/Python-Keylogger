@@ -1,0 +1,17 @@
+Command: python -m unittest discover -s tests -p "test_*.py" -v
+
+test_write_file_appends_lines (test_keylogger_logic.FileOutputTests.test_write_file_appends_lines) ... ok
+test_backspace_is_not_applied_to_buffer (test_keylogger_logic.KeyloggerHandlerTests.test_backspace_is_not_applied_to_buffer) ... ok
+test_character_buffering (test_keylogger_logic.KeyloggerHandlerTests.test_character_buffering) ... ok
+test_console_prints_key_event (test_keylogger_logic.KeyloggerHandlerTests.test_console_prints_key_event) ... ok
+test_enter_writes_and_resets_buffer (test_keylogger_logic.KeyloggerHandlerTests.test_enter_writes_and_resets_buffer) ... ok
+test_escape_release_stops_listener (test_keylogger_logic.KeyloggerHandlerTests.test_escape_release_stops_listener) ... ok
+test_no_file_write_before_enter (test_keylogger_logic.KeyloggerHandlerTests.test_no_file_write_before_enter) ... ok
+test_none_character_raises_typeerror (test_keylogger_logic.KeyloggerHandlerTests.test_none_character_raises_typeerror) ... ok
+test_other_key_release_does_not_stop (test_keylogger_logic.KeyloggerHandlerTests.test_other_key_release_does_not_stop) ... ok
+test_space_buffering (test_keylogger_logic.KeyloggerHandlerTests.test_space_buffering) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.006s
+
+OK
