@@ -32,7 +32,7 @@ To test the event-processing logic without collecting live keyboard input, I ext
 **Result:** 10 handler-level tests passed. The suite verifies ordinary characters, spaces, Enter-triggered writes and reset, Esc behavior, handling of unsupported special keys, local file append mode, console printing, and the known `char=None` edge case.
 
 Supporting artifacts:
-- [`tests/test_keylogger_logic.py`](tests/test_keylogger_logic.py)
+- [`tests/test_keylogger_logic.py`](test_keylogger_logic.py)
 - [`evidence/handler-test-results.txt`](evidence/handler-test-results.txt)
 
 ## Findings and implementation limits
