@@ -47,7 +47,7 @@ The tests cover character input, spaces, Enter-triggered output, buffer reset, E
 - [Handler-level test suite](tests/test_keylogger_logic.py)
 - [Recorded test results](evidence/handler-test-results.txt)
 - [Technical case study](Keyboard-Event-Monitoring-Case-Study.md)
-- [PDF case study](reports/01-keyboard-event-monitoring-case-study.pdf)
+- [PDF case study](01-keyboard-event-monitoring-case-study.pdf)
 
 ## Technical observations
 
